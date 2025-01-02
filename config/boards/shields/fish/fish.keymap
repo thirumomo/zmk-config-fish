@@ -10,6 +10,8 @@
 #include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/pointing.h>
 
+#include "keycode_japanese.h"
+
 
 // 特殊入力の挙動を調整できる
 
@@ -104,9 +106,9 @@
 
         layer_math {
             bindings = <
-                        &kp N1      &kp N2      &kp N3      &trans              &kp AT      &kp LBKT    &kp RBKT    &kp BSLH    
-&kp ESC     &kp N0      &mt LGUI N4 &mt LALT N5 &mt LSHFT N6 &kp DOT            &kp CARET   &mt RSHFT COLON &mt RALT MINUS &kp SEMI &kp COLON &kp DEL   
-            &kp DLLR    &kp N7      &kp N8      &kp N9                                      &kp LT      &kp GT      &kp FSLH    &kp NUBS    
+                        &kp N1      &kp N2      &kp N3      &trans              &kp JP_AT      &kp JP_LBKT    &kp JP_RBKT    &kp JP_YEN    
+&kp ESC     &kp N0      &mt LGUI N4 &mt LALT N5 &mt LSHFT N6 &kp DOT            &kp JP_CARET   &mt RSHFT COLON &mt RALT MINUS &kp JP_SEMI &kp JP_COLON &kp DEL   
+            &kp DLLR    &kp N7      &kp N8      &kp N9                                      &kp JP_LT      &kp JP_RT      &kp JP_SLASH    &kp JP_BSLH    
                                                 &none       &trans              &trans      &lt 6 N     
             >;
         };
