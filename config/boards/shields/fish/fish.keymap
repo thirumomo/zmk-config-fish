@@ -108,7 +108,7 @@
             bindings = <
                         &kp N7      &kp N8      &kp N9      &kp N0              &kp JP_AT      &kp JP_LBKT    &kp JP_RBKT    &kp JP_YEN    
 &kp ESC     &kp N0      &mt LGUI N4 &mt LALT N5 &mt LSHFT N6 &kp DOT            &kp JP_CARET   &mt RSHFT JP_AT &mt RALT MINUS &kp JP_SEMI &kp JP_COLON &kp DEL   
-            &kp DLLR    &kp N1      &kp N2      &kp N3b                                      &kp JP_LT      &kp JP_RT      &kp JP_SLASH    &kp JP_BSLH    
+            &kp DLLR    &kp N1      &kp N2      &kp N3                                      &kp JP_LT      &kp JP_RT      &kp JP_SLASH    &kp JP_BSLH    
                                                 &none       &trans              &trans      &lt 6 N     
             >;
         };
